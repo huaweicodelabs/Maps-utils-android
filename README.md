@@ -79,7 +79,7 @@ searchService.textSearch(request, new SearchResultListener<TextSearchResponse>()
 
 ## Support
 
-If you have any questions or comments during use, welcome to make suggestions or exchange here: https://github.com/huaweicodelabs/map-services-java/issues
+If you have any questions or comments during use, welcome to make suggestions or exchange here: https://github.com/huaweicodelabs/Maps-utils-android/issues
 
 ##  License
 

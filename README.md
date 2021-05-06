@@ -7,9 +7,9 @@ English | [中文](https://github.com/huaweicodelabs/Maps-utils-android/blob/mas
 ## Contents
 
 * [Introduction](#Introduction)
-* [Usage Requirements](#Usage Requirements)
-* [Installation Description](#Installation Description)
-* [Sample Code](#Sample Code)
+* [Usage Requirements](#UsageRequirements)
+* [Installation Description](#InstallationDescription)
+* [Sample Code](#SampleCode)
 * [Support](#Support)
 * [License](#License)
 

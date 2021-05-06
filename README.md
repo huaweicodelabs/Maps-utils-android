@@ -2,64 +2,55 @@
 
 ![Apache-2.0](https://img.shields.io/badge/license-Apache-blue)
 
-## Table of Contents
+English | [中文](https://github.com/huaweicodelabs/Maps-utils-android/blob/master/README_ZH.md)
 
-* [Introduction](#introduction)
-* [Installation](#installation)
-* [Configuration ](#configuration)
-* [Supported Environments](#supported-environments)
-* [Sample Code](# Sample Code)
+## Contents
+
+* [Introduction](#Introduction)
+* [Usage Requirements](#Usage Requirements)
+* [Installation Description](#Installation Description)
+* [Sample Code](#Sample Code)
 * [Support](#Support)
-* [License](#license)
+* [License](#License)
 
 ## Introduction
 
-map_services_java is a set of APIs provided by the location service for third-party developers in client library mode. The APIs can be used to develop services related to location search, geocoding, and time zone obtaining.
+map_services_java is a set of APIs that Site Kit provides in client library mode for you to develop services related to place search, geocoding, and time zone search.
+The Java Client library of Site Kit supports functionality in the following APIs:
 
-- Keyword search: Searches for places, such as tourist attractions, enterprises, and schools, based on a user's input keyword and optional coordinate bounds.
-- Nearby place search: Searches for places in a specified region. You can optimize the search result by providing keywords or specifying the type of the places to find.
-- Place detail search: Obtains detailed address of a place based on its unique ID.
-- Place search suggestion: Provides suggested places when a user enters a search keyword. A maximum of 5 suggested places can be displayed.
-- Forward geocoding: Obtains spatial coordinates (such as the longitude and latitude) of a place based on its address. A maximum of 10 records can be returned.
-- Reverse geocoding: Obtains the detailed address of a place within 200 meters around the device location based on the place's longitude and latitude. A maximum of 11 records can be returned.
-- Autocomplete：Returns a list of suggested places based on the entered keyword.
-- Time zone search: Obtains the time zone of a place based on its longitude and latitude.
+- [Keyword search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-keyword-search-0000001050161916-V5)
+- [Nearby place search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-nearby-search-0000001050163873-V5)
+- [Place detail search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-detail-search-0000001050161918-V5)
+- [Place search suggestion](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-query-suggestion-0000001050161966-V5)
+- [Autocomplete](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/autocomplete-0000001052250492-V5)
+- [Forward geocoding](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-forward-geo-0000001050163921-V5)
+- [Reverse geocoding](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-reverse-geo-0000001050161968-V5)
+- [Time zone search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-time-zone-0000001050161920-V5)
 
-## Installation
-Before using Java sample code, check whether the Java environment has been installed. 
+## Usage Requirements
 
-## Configuration
-You can add the library to your project via Gradle.
+- The JDK version is 1.8 or later.
+- The API key has been obtained in AppGallery Connect.
 
-```groovy
-repositories {
-    mavenCentral()
-}
 
-dependencies {
-    implementation 'com.huawei.hms:map_services_java:(insert latest version)'
-}
-```
-
-## Supported Environments
-
-JDK version >= 1.8 is recommended.
+## Installation Description
+You can download the source code to add the Java Client library to your project. 
 
 ## Sample Code
 
-This example uses the keyword search interface to demonstrate the function.
+The sample code provides a demo for the keyword search API.
 
-1). Generating the SearchService instance based on the apiKey
+1). Generate a SearchService instance using the API key.
 ```java
 ApiContext apiContext = ApiContext.builder()
     .baseUrl("https://siteapi.cloud.huawei.com")
-    .apiKey("Your API key") // please replace "Your API key" with apiKey field value in
+    .apiKey("Your API key")
     .build();
 	
 SearchService searchService = SearchServiceFactory.create(apiContext);
 ```
 
-2). Invoke the keyword search interface based on the SearchService instance.
+2). Call the keyword search API based on the SearchService instance.
 ```java
 TextSearchRequest request = new TextSearchRequest();
 request.setQuery("SQUARE");
@@ -79,10 +70,10 @@ searchService.textSearch(request, new SearchResultListener<TextSearchResponse>()
 
 ## Support
 
-If you have any questions or comments during use, welcome to make suggestions or exchange here: https://github.com/huaweicodelabs/Maps-utils-android/issues
+If you have any questions or suggestions, please visit the following link to give your suggestions or contact us: https://github.com/huaweicodelabs/Maps-utils-android/issues
 
-##  License
+## License
 
 Apache License 2.0
 
-map_services_java is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+The Java Client sample code is licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).

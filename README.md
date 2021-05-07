@@ -6,14 +6,15 @@ English | [中文](https://github.com/huaweicodelabs/Maps-utils-android/blob/mas
 
 ## Contents
 
-* [Introduction](#Introduction)
-* [Usage Requirements](#UsageRequirements)
-* [Installation Description](#InstallationDescription)
-* [Sample Code](#SampleCode)
-* [Support](#Support)
-* [License](#License)
+* [Introduction](#introduction)
+* [Usage Requirements](#usage-requirements)
+* [Installation Description](#installation-description)
+* [Sample Code](#sample-code)
+* [Support](#support)
+* [License](#license)
 
-## Introduction
+Introduction
+-------
 
 map_services_java is a set of APIs that Site Kit provides in client library mode for you to develop services related to place search, geocoding, and time zone search.
 The Java Client library of Site Kit supports functionality in the following APIs:
@@ -27,16 +28,19 @@ The Java Client library of Site Kit supports functionality in the following APIs
 - [Reverse geocoding](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-reverse-geo-0000001050161968-V5)
 - [Time zone search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-time-zone-0000001050161920-V5)
 
-## Usage Requirements
+Usage Requirements
+-------
 
 - The JDK version is 1.8 or later.
 - The API key has been obtained in AppGallery Connect.
 
 
-## Installation Description
+Installation Description
+-------
 You can download the source code to add the Java Client library to your project. 
 
-## Sample Code
+Sample Code
+-------
 
 The sample code provides a demo for the keyword search API.
 
@@ -68,11 +72,13 @@ searchService.textSearch(request, new SearchResultListener<TextSearchResponse>()
 });
 ```
 
-## Support
+Support
+-------
 
 If you have any questions or suggestions, please visit the following link to give your suggestions or contact us: https://github.com/huaweicodelabs/Maps-utils-android/issues
 
-## License
+License
+-------
 
 Apache License 2.0
 

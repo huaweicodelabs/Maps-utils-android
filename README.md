@@ -32,7 +32,7 @@ Usage Requirements
 -------
 
 - The JDK version is 1.8 or later.
-- The API key has been obtained in AppGallery Connect.
+- [The API key](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/client-library-0000001104033088-V5#EN-US_TOPIC_0000001104033088__section527610250284) has been obtained in AppGallery Connect.
 
 
 Installation Description

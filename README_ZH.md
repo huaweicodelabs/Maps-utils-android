@@ -30,7 +30,7 @@ map_services_java是位置服务以Client Library形式为第三方开发者提�
 ## 使用要求
 
 - JDK版本号1.8及以上。
-- 在AppGallery Connect上获取API Key。
+- 在AppGallery Connect上[获取API Key](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/client-library-0000001104033088-V5#ZH-CN_TOPIC_0000001104033088__section527610250284)。
 
 
 ## 安装说明

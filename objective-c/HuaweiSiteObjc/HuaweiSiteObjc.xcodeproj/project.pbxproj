@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78C694CD25DEEC31008B8844 /* HuaweiSiteObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C694C325DEEC31008B8844 /* HuaweiSiteObjc.framework */; };
+		78C694D425DEEC31008B8844 /* HuaweiSiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694C625DEEC31008B8844 /* HuaweiSiteObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6953725DEEC4A008B8844 /* OpeningHours.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694E125DEEC4A008B8844 /* OpeningHours.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6953825DEEC4A008B8844 /* OpeningHours.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C694E225DEEC4A008B8844 /* OpeningHours.m */; };
+		78C6953925DEEC4A008B8844 /* TextSearchResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694E425DEEC4A008B8844 /* TextSearchResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6953A25DEEC4A008B8844 /* TextSearchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694E525DEEC4A008B8844 /* TextSearchRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6953B25DEEC4A008B8844 /* TextSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C694E625DEEC4A008B8844 /* TextSearchRequest.m */; };
+		78C6953C25DEEC4A008B8844 /* TextSearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C694E725DEEC4A008B8844 /* TextSearchResponse.m */; };
+		78C6953D25DEEC4A008B8844 /* CoordinateBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C694E925DEEC4A008B8844 /* CoordinateBounds.m */; };
+		78C6953E25DEEC4A008B8844 /* CoordinateBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694EA25DEEC4A008B8844 /* CoordinateBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6953F25DEEC4A008B8844 /* TimezoneRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694EC25DEEC4A008B8844 /* TimezoneRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6954025DEEC4A008B8844 /* TimezoneResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694ED25DEEC4A008B8844 /* TimezoneResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6954125DEEC4A008B8844 /* TimezoneResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C694EE25DEEC4A008B8844 /* TimezoneResponse.m */; };
+		78C6954225DEEC4A008B8844 /* TimezoneRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C694EF25DEEC4A008B8844 /* TimezoneRequest.m */; };
+		78C6954325DEEC4A008B8844 /* ReverseGeocodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C694F125DEEC4A008B8844 /* ReverseGeocodeRequest.m */; };
+		78C6954425DEEC4A008B8844 /* ReverseGeocodeResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694F225DEEC4A008B8844 /* ReverseGeocodeResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6954525DEEC4A008B8844 /* ReverseGeocodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694F325DEEC4A008B8844 /* ReverseGeocodeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6954625DEEC4A008B8844 /* ReverseGeocodeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C694F425DEEC4A008B8844 /* ReverseGeocodeResponse.m */; };
+		78C6954725DEEC4A008B8844 /* QueryAutocompleteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C694F625DEEC4A008B8844 /* QueryAutocompleteRequest.m */; };
+		78C6954825DEEC4A008B8844 /* QueryAutocompleteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C694F725DEEC4A008B8844 /* QueryAutocompleteResponse.m */; };
+		78C6954925DEEC4A008B8844 /* QueryAutocompleteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694F825DEEC4A008B8844 /* QueryAutocompleteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6954A25DEEC4A008B8844 /* QueryAutocompleteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694F925DEEC4A008B8844 /* QueryAutocompleteResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6954B25DEEC4A008B8844 /* QuerySuggestionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C694FB25DEEC4A008B8844 /* QuerySuggestionRequest.m */; };
+		78C6954C25DEEC4A008B8844 /* QuerySuggestionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C694FC25DEEC4A008B8844 /* QuerySuggestionResponse.m */; };
+		78C6954D25DEEC4A008B8844 /* QuerySuggestionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694FD25DEEC4A008B8844 /* QuerySuggestionRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6954E25DEEC4A008B8844 /* QuerySuggestionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C694FE25DEEC4A008B8844 /* QuerySuggestionResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6954F25DEEC4A008B8844 /* HwLocationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6950025DEEC4A008B8844 /* HwLocationType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6955025DEEC4A008B8844 /* HwLocationType.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6950125DEEC4A008B8844 /* HwLocationType.m */; };
+		78C6955125DEEC4A008B8844 /* Period.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6950325DEEC4A008B8844 /* Period.m */; };
+		78C6955225DEEC4A008B8844 /* Period.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6950425DEEC4A008B8844 /* Period.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6955325DEEC4A008B8844 /* DetailSearchResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6950625DEEC4A008B8844 /* DetailSearchResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6955425DEEC4A008B8844 /* DetailSearchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6950725DEEC4A008B8844 /* DetailSearchRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6955525DEEC4A008B8844 /* DetailSearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6950825DEEC4A008B8844 /* DetailSearchResponse.m */; };
+		78C6955625DEEC4A008B8844 /* DetailSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6950925DEEC4A008B8844 /* DetailSearchRequest.m */; };
+		78C6955725DEEC4A008B8844 /* NearbySearchResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6950B25DEEC4A008B8844 /* NearbySearchResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6955825DEEC4A008B8844 /* NearbySearchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6950C25DEEC4A008B8844 /* NearbySearchRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6955925DEEC4A008B8844 /* NearbySearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6950D25DEEC4A008B8844 /* NearbySearchResponse.m */; };
+		78C6955A25DEEC4A008B8844 /* NearbySearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6950E25DEEC4A008B8844 /* NearbySearchRequest.m */; };
+		78C6955B25DEEC4A008B8844 /* LocationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6951025DEEC4A008B8844 /* LocationType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6955C25DEEC4A008B8844 /* LocationType.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6951125DEEC4A008B8844 /* LocationType.m */; };
+		78C6955D25DEEC4A008B8844 /* Poi.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6951325DEEC4A008B8844 /* Poi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6955E25DEEC4A008B8844 /* Poi.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6951425DEEC4A008B8844 /* Poi.m */; };
+		78C6955F25DEEC4A008B8844 /* TimeOfWeek.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6951625DEEC4A008B8844 /* TimeOfWeek.m */; };
+		78C6956025DEEC4A008B8844 /* TimeOfWeek.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6951725DEEC4A008B8844 /* TimeOfWeek.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6956125DEEC4A008B8844 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6951925DEEC4A008B8844 /* Word.m */; };
+		78C6956225DEEC4A008B8844 /* Word.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6951A25DEEC4A008B8844 /* Word.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6956325DEEC4A008B8844 /* Site.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6951C25DEEC4A008B8844 /* Site.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6956425DEEC4A008B8844 /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6951D25DEEC4A008B8844 /* Site.m */; };
+		78C6956525DEEC4A008B8844 /* AddressDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6951F25DEEC4A008B8844 /* AddressDetail.m */; };
+		78C6956625DEEC4A008B8844 /* AddressDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6952025DEEC4A008B8844 /* AddressDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6956725DEEC4A008B8844 /* Coordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6952225DEEC4A008B8844 /* Coordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6956825DEEC4A008B8844 /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6952325DEEC4A008B8844 /* Coordinate.m */; };
+		78C6956925DEEC4A008B8844 /* ChildrenNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6952525DEEC4A008B8844 /* ChildrenNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6956A25DEEC4A008B8844 /* ChildrenNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6952625DEEC4A008B8844 /* ChildrenNode.m */; };
+		78C6956B25DEEC4A008B8844 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6952825DEEC4A008B8844 /* BaseResponse.m */; };
+		78C6956C25DEEC4A008B8844 /* BaseResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6952925DEEC4A008B8844 /* BaseResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6956D25DEEC4A008B8844 /* AutoCompletePrediction.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6952B25DEEC4A008B8844 /* AutoCompletePrediction.m */; };
+		78C6956E25DEEC4A008B8844 /* AutoCompletePrediction.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6952C25DEEC4A008B8844 /* AutoCompletePrediction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6956F25DEEC4A008B8844 /* GeocodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6952E25DEEC4A008B8844 /* GeocodeRequest.m */; };
+		78C6957025DEEC4A008B8844 /* GeocodeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6952F25DEEC4A008B8844 /* GeocodeResponse.m */; };
+		78C6957125DEEC4A008B8844 /* GeocodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6953025DEEC4A008B8844 /* GeocodeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6957225DEEC4A008B8844 /* GeocodeResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6953125DEEC4A008B8844 /* GeocodeResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6957325DEEC4A008B8844 /* SiteClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6953225DEEC4A008B8844 /* SiteClient.m */; };
+		78C6957425DEEC4A008B8844 /* ApiContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6953425DEEC4A008B8844 /* ApiContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6957525DEEC4A008B8844 /* ApiContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6953525DEEC4A008B8844 /* ApiContext.m */; };
+		78C6957625DEEC4A008B8844 /* SiteClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6953625DEEC4A008B8844 /* SiteClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C6957D25DEEC80008B8844 /* ApiContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6957B25DEEC80008B8844 /* ApiContextTests.m */; };
+		78C6957E25DEEC80008B8844 /* ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6957C25DEEC80008B8844 /* ClientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78C694CE25DEEC31008B8844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C694BA25DEEC31008B8844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C694C225DEEC31008B8844;
+			remoteInfo = HuaweiSiteObjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78C694C325DEEC31008B8844 /* HuaweiSiteObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HuaweiSiteObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C694C625DEEC31008B8844 /* HuaweiSiteObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuaweiSiteObjc.h; sourceTree = "<group>"; };
+		78C694C725DEEC31008B8844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C694CC25DEEC31008B8844 /* HuaweiSiteObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuaweiSiteObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C694D325DEEC31008B8844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C694E125DEEC4A008B8844 /* OpeningHours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningHours.h; sourceTree = "<group>"; };
+		78C694E225DEEC4A008B8844 /* OpeningHours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningHours.m; sourceTree = "<group>"; };
+		78C694E425DEEC4A008B8844 /* TextSearchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSearchResponse.h; sourceTree = "<group>"; };
+		78C694E525DEEC4A008B8844 /* TextSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSearchRequest.h; sourceTree = "<group>"; };
+		78C694E625DEEC4A008B8844 /* TextSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSearchRequest.m; sourceTree = "<group>"; };
+		78C694E725DEEC4A008B8844 /* TextSearchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSearchResponse.m; sourceTree = "<group>"; };
+		78C694E925DEEC4A008B8844 /* CoordinateBounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinateBounds.m; sourceTree = "<group>"; };
+		78C694EA25DEEC4A008B8844 /* CoordinateBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateBounds.h; sourceTree = "<group>"; };
+		78C694EC25DEEC4A008B8844 /* TimezoneRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimezoneRequest.h; sourceTree = "<group>"; };
+		78C694ED25DEEC4A008B8844 /* TimezoneResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimezoneResponse.h; sourceTree = "<group>"; };
+		78C694EE25DEEC4A008B8844 /* TimezoneResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimezoneResponse.m; sourceTree = "<group>"; };
+		78C694EF25DEEC4A008B8844 /* TimezoneRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimezoneRequest.m; sourceTree = "<group>"; };
+		78C694F125DEEC4A008B8844 /* ReverseGeocodeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseGeocodeRequest.m; sourceTree = "<group>"; };
+		78C694F225DEEC4A008B8844 /* ReverseGeocodeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseGeocodeResponse.h; sourceTree = "<group>"; };
+		78C694F325DEEC4A008B8844 /* ReverseGeocodeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseGeocodeRequest.h; sourceTree = "<group>"; };
+		78C694F425DEEC4A008B8844 /* ReverseGeocodeResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseGeocodeResponse.m; sourceTree = "<group>"; };
+		78C694F625DEEC4A008B8844 /* QueryAutocompleteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryAutocompleteRequest.m; sourceTree = "<group>"; };
+		78C694F725DEEC4A008B8844 /* QueryAutocompleteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryAutocompleteResponse.m; sourceTree = "<group>"; };
+		78C694F825DEEC4A008B8844 /* QueryAutocompleteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryAutocompleteRequest.h; sourceTree = "<group>"; };
+		78C694F925DEEC4A008B8844 /* QueryAutocompleteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryAutocompleteResponse.h; sourceTree = "<group>"; };
+		78C694FB25DEEC4A008B8844 /* QuerySuggestionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuerySuggestionRequest.m; sourceTree = "<group>"; };
+		78C694FC25DEEC4A008B8844 /* QuerySuggestionResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuerySuggestionResponse.m; sourceTree = "<group>"; };
+		78C694FD25DEEC4A008B8844 /* QuerySuggestionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuerySuggestionRequest.h; sourceTree = "<group>"; };
+		78C694FE25DEEC4A008B8844 /* QuerySuggestionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuerySuggestionResponse.h; sourceTree = "<group>"; };
+		78C6950025DEEC4A008B8844 /* HwLocationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HwLocationType.h; sourceTree = "<group>"; };
+		78C6950125DEEC4A008B8844 /* HwLocationType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HwLocationType.m; sourceTree = "<group>"; };
+		78C6950325DEEC4A008B8844 /* Period.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Period.m; sourceTree = "<group>"; };
+		78C6950425DEEC4A008B8844 /* Period.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Period.h; sourceTree = "<group>"; };
+		78C6950625DEEC4A008B8844 /* DetailSearchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailSearchResponse.h; sourceTree = "<group>"; };
+		78C6950725DEEC4A008B8844 /* DetailSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailSearchRequest.h; sourceTree = "<group>"; };
+		78C6950825DEEC4A008B8844 /* DetailSearchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailSearchResponse.m; sourceTree = "<group>"; };
+		78C6950925DEEC4A008B8844 /* DetailSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailSearchRequest.m; sourceTree = "<group>"; };
+		78C6950B25DEEC4A008B8844 /* NearbySearchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbySearchResponse.h; sourceTree = "<group>"; };
+		78C6950C25DEEC4A008B8844 /* NearbySearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbySearchRequest.h; sourceTree = "<group>"; };
+		78C6950D25DEEC4A008B8844 /* NearbySearchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbySearchResponse.m; sourceTree = "<group>"; };
+		78C6950E25DEEC4A008B8844 /* NearbySearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbySearchRequest.m; sourceTree = "<group>"; };
+		78C6951025DEEC4A008B8844 /* LocationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationType.h; sourceTree = "<group>"; };
+		78C6951125DEEC4A008B8844 /* LocationType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationType.m; sourceTree = "<group>"; };
+		78C6951325DEEC4A008B8844 /* Poi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poi.h; sourceTree = "<group>"; };
+		78C6951425DEEC4A008B8844 /* Poi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Poi.m; sourceTree = "<group>"; };
+		78C6951625DEEC4A008B8844 /* TimeOfWeek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeOfWeek.m; sourceTree = "<group>"; };
+		78C6951725DEEC4A008B8844 /* TimeOfWeek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeOfWeek.h; sourceTree = "<group>"; };
+		78C6951925DEEC4A008B8844 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		78C6951A25DEEC4A008B8844 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		78C6951C25DEEC4A008B8844 /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Site.h; sourceTree = "<group>"; };
+		78C6951D25DEEC4A008B8844 /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Site.m; sourceTree = "<group>"; };
+		78C6951F25DEEC4A008B8844 /* AddressDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressDetail.m; sourceTree = "<group>"; };
+		78C6952025DEEC4A008B8844 /* AddressDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressDetail.h; sourceTree = "<group>"; };
+		78C6952225DEEC4A008B8844 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		78C6952325DEEC4A008B8844 /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinate.m; sourceTree = "<group>"; };
+		78C6952525DEEC4A008B8844 /* ChildrenNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildrenNode.h; sourceTree = "<group>"; };
+		78C6952625DEEC4A008B8844 /* ChildrenNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildrenNode.m; sourceTree = "<group>"; };
+		78C6952825DEEC4A008B8844 /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		78C6952925DEEC4A008B8844 /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		78C6952B25DEEC4A008B8844 /* AutoCompletePrediction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletePrediction.m; sourceTree = "<group>"; };
+		78C6952C25DEEC4A008B8844 /* AutoCompletePrediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletePrediction.h; sourceTree = "<group>"; };
+		78C6952E25DEEC4A008B8844 /* GeocodeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeocodeRequest.m; sourceTree = "<group>"; };
+		78C6952F25DEEC4A008B8844 /* GeocodeResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeocodeResponse.m; sourceTree = "<group>"; };
+		78C6953025DEEC4A008B8844 /* GeocodeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocodeRequest.h; sourceTree = "<group>"; };
+		78C6953125DEEC4A008B8844 /* GeocodeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocodeResponse.h; sourceTree = "<group>"; };
+		78C6953225DEEC4A008B8844 /* SiteClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteClient.m; sourceTree = "<group>"; };
+		78C6953425DEEC4A008B8844 /* ApiContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiContext.h; sourceTree = "<group>"; };
+		78C6953525DEEC4A008B8844 /* ApiContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiContext.m; sourceTree = "<group>"; };
+		78C6953625DEEC4A008B8844 /* SiteClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteClient.h; sourceTree = "<group>"; };
+		78C6957B25DEEC80008B8844 /* ApiContextTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiContextTests.m; sourceTree = "<group>"; };
+		78C6957C25DEEC80008B8844 /* ClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78C694C025DEEC31008B8844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C694C925DEEC31008B8844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C694CD25DEEC31008B8844 /* HuaweiSiteObjc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78C694B925DEEC31008B8844 = {
+			isa = PBXGroup;
+			children = (
+				78C694C525DEEC31008B8844 /* HuaweiSiteObjc */,
+				78C694D025DEEC31008B8844 /* HuaweiSiteObjcTests */,
+				78C694C425DEEC31008B8844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78C694C425DEEC31008B8844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C694C325DEEC31008B8844 /* HuaweiSiteObjc.framework */,
+				78C694CC25DEEC31008B8844 /* HuaweiSiteObjcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C694C525DEEC31008B8844 /* HuaweiSiteObjc */ = {
+			isa = PBXGroup;
+			children = (
+				78C6953625DEEC4A008B8844 /* SiteClient.h */,
+				78C6953225DEEC4A008B8844 /* SiteClient.m */,
+				78C6953325DEEC4A008B8844 /* ApiContext */,
+				78C694DF25DEEC4A008B8844 /* Model */,
+				78C694C625DEEC31008B8844 /* HuaweiSiteObjc.h */,
+				78C694C725DEEC31008B8844 /* Info.plist */,
+			);
+			path = HuaweiSiteObjc;
+			sourceTree = "<group>";
+		};
+		78C694D025DEEC31008B8844 /* HuaweiSiteObjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				78C6957B25DEEC80008B8844 /* ApiContextTests.m */,
+				78C6957C25DEEC80008B8844 /* ClientTests.m */,
+				78C694D325DEEC31008B8844 /* Info.plist */,
+			);
+			path = HuaweiSiteObjcTests;
+			sourceTree = "<group>";
+		};
+		78C694DF25DEEC4A008B8844 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78C694E325DEEC4A008B8844 /* TextSearch */,
+				78C694E025DEEC4A008B8844 /* OpeningHours */,
+				78C694E825DEEC4A008B8844 /* CoordinateBounds */,
+				78C694EB25DEEC4A008B8844 /* Timezone */,
+				78C694F025DEEC4A008B8844 /* ReverseGeocode */,
+				78C694F525DEEC4A008B8844 /* QueryAutocomplete */,
+				78C694FA25DEEC4A008B8844 /* QuerySuggestion */,
+				78C694FF25DEEC4A008B8844 /* HwLocationType */,
+				78C6950225DEEC4A008B8844 /* Period */,
+				78C6950525DEEC4A008B8844 /* DetailSearch */,
+				78C6950A25DEEC4A008B8844 /* Nearby */,
+				78C6950F25DEEC4A008B8844 /* LocationType */,
+				78C6951225DEEC4A008B8844 /* Poi */,
+				78C6951525DEEC4A008B8844 /* TimeOfWeek */,
+				78C6951825DEEC4A008B8844 /* Word */,
+				78C6951B25DEEC4A008B8844 /* Site */,
+				78C6951E25DEEC4A008B8844 /* AddressDetail */,
+				78C6952125DEEC4A008B8844 /* Coordinate */,
+				78C6952425DEEC4A008B8844 /* ChildrenNode */,
+				78C6952725DEEC4A008B8844 /* Base */,
+				78C6952A25DEEC4A008B8844 /* AutoCompletePrediction */,
+				78C6952D25DEEC4A008B8844 /* Geocode */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78C694E025DEEC4A008B8844 /* OpeningHours */ = {
+			isa = PBXGroup;
+			children = (
+				78C694E125DEEC4A008B8844 /* OpeningHours.h */,
+				78C694E225DEEC4A008B8844 /* OpeningHours.m */,
+			);
+			path = OpeningHours;
+			sourceTree = "<group>";
+		};
+		78C694E325DEEC4A008B8844 /* TextSearch */ = {
+			isa = PBXGroup;
+			children = (
+				78C694E425DEEC4A008B8844 /* TextSearchResponse.h */,
+				78C694E525DEEC4A008B8844 /* TextSearchRequest.h */,
+				78C694E625DEEC4A008B8844 /* TextSearchRequest.m */,
+				78C694E725DEEC4A008B8844 /* TextSearchResponse.m */,
+			);
+			path = TextSearch;
+			sourceTree = "<group>";
+		};
+		78C694E825DEEC4A008B8844 /* CoordinateBounds */ = {
+			isa = PBXGroup;
+			children = (
+				78C694E925DEEC4A008B8844 /* CoordinateBounds.m */,
+				78C694EA25DEEC4A008B8844 /* CoordinateBounds.h */,
+			);
+			path = CoordinateBounds;
+			sourceTree = "<group>";
+		};
+		78C694EB25DEEC4A008B8844 /* Timezone */ = {
+			isa = PBXGroup;
+			children = (
+				78C694EC25DEEC4A008B8844 /* TimezoneRequest.h */,
+				78C694ED25DEEC4A008B8844 /* TimezoneResponse.h */,
+				78C694EE25DEEC4A008B8844 /* TimezoneResponse.m */,
+				78C694EF25DEEC4A008B8844 /* TimezoneRequest.m */,
+			);
+			path = Timezone;
+			sourceTree = "<group>";
+		};
+		78C694F025DEEC4A008B8844 /* ReverseGeocode */ = {
+			isa = PBXGroup;
+			children = (
+				78C694F125DEEC4A008B8844 /* ReverseGeocodeRequest.m */,
+				78C694F225DEEC4A008B8844 /* ReverseGeocodeResponse.h */,
+				78C694F325DEEC4A008B8844 /* ReverseGeocodeRequest.h */,
+				78C694F425DEEC4A008B8844 /* ReverseGeocodeResponse.m */,
+			);
+			path = ReverseGeocode;
+			sourceTree = "<group>";
+		};
+		78C694F525DEEC4A008B8844 /* QueryAutocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				78C694F625DEEC4A008B8844 /* QueryAutocompleteRequest.m */,
+				78C694F725DEEC4A008B8844 /* QueryAutocompleteResponse.m */,
+				78C694F825DEEC4A008B8844 /* QueryAutocompleteRequest.h */,
+				78C694F925DEEC4A008B8844 /* QueryAutocompleteResponse.h */,
+			);
+			path = QueryAutocomplete;
+			sourceTree = "<group>";
+		};
+		78C694FA25DEEC4A008B8844 /* QuerySuggestion */ = {
+			isa = PBXGroup;
+			children = (
+				78C694FB25DEEC4A008B8844 /* QuerySuggestionRequest.m */,
+				78C694FC25DEEC4A008B8844 /* QuerySuggestionResponse.m */,
+				78C694FD25DEEC4A008B8844 /* QuerySuggestionRequest.h */,
+				78C694FE25DEEC4A008B8844 /* QuerySuggestionResponse.h */,
+			);
+			path = QuerySuggestion;
+			sourceTree = "<group>";
+		};
+		78C694FF25DEEC4A008B8844 /* HwLocationType */ = {
+			isa = PBXGroup;
+			children = (
+				78C6950025DEEC4A008B8844 /* HwLocationType.h */,
+				78C6950125DEEC4A008B8844 /* HwLocationType.m */,
+			);
+			path = HwLocationType;
+			sourceTree = "<group>";
+		};
+		78C6950225DEEC4A008B8844 /* Period */ = {
+			isa = PBXGroup;
+			children = (
+				78C6950325DEEC4A008B8844 /* Period.m */,
+				78C6950425DEEC4A008B8844 /* Period.h */,
+			);
+			path = Period;
+			sourceTree = "<group>";
+		};
+		78C6950525DEEC4A008B8844 /* DetailSearch */ = {
+			isa = PBXGroup;
+			children = (
+				78C6950625DEEC4A008B8844 /* DetailSearchResponse.h */,
+				78C6950725DEEC4A008B8844 /* DetailSearchRequest.h */,
+				78C6950825DEEC4A008B8844 /* DetailSearchResponse.m */,
+				78C6950925DEEC4A008B8844 /* DetailSearchRequest.m */,
+			);
+			path = DetailSearch;
+			sourceTree = "<group>";
+		};
+		78C6950A25DEEC4A008B8844 /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				78C6950B25DEEC4A008B8844 /* NearbySearchResponse.h */,
+				78C6950C25DEEC4A008B8844 /* NearbySearchRequest.h */,
+				78C6950D25DEEC4A008B8844 /* NearbySearchResponse.m */,
+				78C6950E25DEEC4A008B8844 /* NearbySearchRequest.m */,
+			);
+			path = Nearby;
+			sourceTree = "<group>";
+		};
+		78C6950F25DEEC4A008B8844 /* LocationType */ = {
+			isa = PBXGroup;
+			children = (
+				78C6951025DEEC4A008B8844 /* LocationType.h */,
+				78C6951125DEEC4A008B8844 /* LocationType.m */,
+			);
+			path = LocationType;
+			sourceTree = "<group>";
+		};
+		78C6951225DEEC4A008B8844 /* Poi */ = {
+			isa = PBXGroup;
+			children = (
+				78C6951325DEEC4A008B8844 /* Poi.h */,
+				78C6951425DEEC4A008B8844 /* Poi.m */,
+			);
+			path = Poi;
+			sourceTree = "<group>";
+		};
+		78C6951525DEEC4A008B8844 /* TimeOfWeek */ = {
+			isa = PBXGroup;
+			children = (
+				78C6951625DEEC4A008B8844 /* TimeOfWeek.m */,
+				78C6951725DEEC4A008B8844 /* TimeOfWeek.h */,
+			);
+			path = TimeOfWeek;
+			sourceTree = "<group>";
+		};
+		78C6951825DEEC4A008B8844 /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				78C6951925DEEC4A008B8844 /* Word.m */,
+				78C6951A25DEEC4A008B8844 /* Word.h */,
+			);
+			path = Word;
+			sourceTree = "<group>";
+		};
+		78C6951B25DEEC4A008B8844 /* Site */ = {
+			isa = PBXGroup;
+			children = (
+				78C6951C25DEEC4A008B8844 /* Site.h */,
+				78C6951D25DEEC4A008B8844 /* Site.m */,
+			);
+			path = Site;
+			sourceTree = "<group>";
+		};
+		78C6951E25DEEC4A008B8844 /* AddressDetail */ = {
+			isa = PBXGroup;
+			children = (
+				78C6951F25DEEC4A008B8844 /* AddressDetail.m */,
+				78C6952025DEEC4A008B8844 /* AddressDetail.h */,
+			);
+			path = AddressDetail;
+			sourceTree = "<group>";
+		};
+		78C6952125DEEC4A008B8844 /* Coordinate */ = {
+			isa = PBXGroup;
+			children = (
+				78C6952225DEEC4A008B8844 /* Coordinate.h */,
+				78C6952325DEEC4A008B8844 /* Coordinate.m */,
+			);
+			path = Coordinate;
+			sourceTree = "<group>";
+		};
+		78C6952425DEEC4A008B8844 /* ChildrenNode */ = {
+			isa = PBXGroup;
+			children = (
+				78C6952525DEEC4A008B8844 /* ChildrenNode.h */,
+				78C6952625DEEC4A008B8844 /* ChildrenNode.m */,
+			);
+			path = ChildrenNode;
+			sourceTree = "<group>";
+		};
+		78C6952725DEEC4A008B8844 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				78C6952825DEEC4A008B8844 /* BaseResponse.m */,
+				78C6952925DEEC4A008B8844 /* BaseResponse.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		78C6952A25DEEC4A008B8844 /* AutoCompletePrediction */ = {
+			isa = PBXGroup;
+			children = (
+				78C6952B25DEEC4A008B8844 /* AutoCompletePrediction.m */,
+				78C6952C25DEEC4A008B8844 /* AutoCompletePrediction.h */,
+			);
+			path = AutoCompletePrediction;
+			sourceTree = "<group>";
+		};
+		78C6952D25DEEC4A008B8844 /* Geocode */ = {
+			isa = PBXGroup;
+			children = (
+				78C6952E25DEEC4A008B8844 /* GeocodeRequest.m */,
+				78C6952F25DEEC4A008B8844 /* GeocodeResponse.m */,
+				78C6953025DEEC4A008B8844 /* GeocodeRequest.h */,
+				78C6953125DEEC4A008B8844 /* GeocodeResponse.h */,
+			);
+			path = Geocode;
+			sourceTree = "<group>";
+		};
+		78C6953325DEEC4A008B8844 /* ApiContext */ = {
+			isa = PBXGroup;
+			children = (
+				78C6953425DEEC4A008B8844 /* ApiContext.h */,
+				78C6953525DEEC4A008B8844 /* ApiContext.m */,
+			);
+			path = ApiContext;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		78C694BE25DEEC31008B8844 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C6954525DEEC4A008B8844 /* ReverseGeocodeRequest.h in Headers */,
+				78C6957425DEEC4A008B8844 /* ApiContext.h in Headers */,
+				78C6956325DEEC4A008B8844 /* Site.h in Headers */,
+				78C6954025DEEC4A008B8844 /* TimezoneResponse.h in Headers */,
+				78C694D425DEEC31008B8844 /* HuaweiSiteObjc.h in Headers */,
+				78C6956725DEEC4A008B8844 /* Coordinate.h in Headers */,
+				78C6953E25DEEC4A008B8844 /* CoordinateBounds.h in Headers */,
+				78C6955325DEEC4A008B8844 /* DetailSearchResponse.h in Headers */,
+				78C6955425DEEC4A008B8844 /* DetailSearchRequest.h in Headers */,
+				78C6955D25DEEC4A008B8844 /* Poi.h in Headers */,
+				78C6953A25DEEC4A008B8844 /* TextSearchRequest.h in Headers */,
+				78C6955B25DEEC4A008B8844 /* LocationType.h in Headers */,
+				78C6954D25DEEC4A008B8844 /* QuerySuggestionRequest.h in Headers */,
+				78C6956025DEEC4A008B8844 /* TimeOfWeek.h in Headers */,
+				78C6956E25DEEC4A008B8844 /* AutoCompletePrediction.h in Headers */,
+				78C6953F25DEEC4A008B8844 /* TimezoneRequest.h in Headers */,
+				78C6956C25DEEC4A008B8844 /* BaseResponse.h in Headers */,
+				78C6953725DEEC4A008B8844 /* OpeningHours.h in Headers */,
+				78C6956225DEEC4A008B8844 /* Word.h in Headers */,
+				78C6953925DEEC4A008B8844 /* TextSearchResponse.h in Headers */,
+				78C6957125DEEC4A008B8844 /* GeocodeRequest.h in Headers */,
+				78C6954425DEEC4A008B8844 /* ReverseGeocodeResponse.h in Headers */,
+				78C6957225DEEC4A008B8844 /* GeocodeResponse.h in Headers */,
+				78C6957625DEEC4A008B8844 /* SiteClient.h in Headers */,
+				78C6954A25DEEC4A008B8844 /* QueryAutocompleteResponse.h in Headers */,
+				78C6954925DEEC4A008B8844 /* QueryAutocompleteRequest.h in Headers */,
+				78C6955225DEEC4A008B8844 /* Period.h in Headers */,
+				78C6954F25DEEC4A008B8844 /* HwLocationType.h in Headers */,
+				78C6955725DEEC4A008B8844 /* NearbySearchResponse.h in Headers */,
+				78C6956625DEEC4A008B8844 /* AddressDetail.h in Headers */,
+				78C6955825DEEC4A008B8844 /* NearbySearchRequest.h in Headers */,
+				78C6956925DEEC4A008B8844 /* ChildrenNode.h in Headers */,
+				78C6954E25DEEC4A008B8844 /* QuerySuggestionResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		78C694C225DEEC31008B8844 /* HuaweiSiteObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C694D725DEEC31008B8844 /* Build configuration list for PBXNativeTarget "HuaweiSiteObjc" */;
+			buildPhases = (
+				78C694BE25DEEC31008B8844 /* Headers */,
+				78C694BF25DEEC31008B8844 /* Sources */,
+				78C694C025DEEC31008B8844 /* Frameworks */,
+				78C694C125DEEC31008B8844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuaweiSiteObjc;
+			productName = HuaweiSiteObjc;
+			productReference = 78C694C325DEEC31008B8844 /* HuaweiSiteObjc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78C694CB25DEEC31008B8844 /* HuaweiSiteObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C694DA25DEEC31008B8844 /* Build configuration list for PBXNativeTarget "HuaweiSiteObjcTests" */;
+			buildPhases = (
+				78C694C825DEEC31008B8844 /* Sources */,
+				78C694C925DEEC31008B8844 /* Frameworks */,
+				78C694CA25DEEC31008B8844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C694CF25DEEC31008B8844 /* PBXTargetDependency */,
+			);
+			name = HuaweiSiteObjcTests;
+			productName = HuaweiSiteObjcTests;
+			productReference = 78C694CC25DEEC31008B8844 /* HuaweiSiteObjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C694BA25DEEC31008B8844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					78C694C225DEEC31008B8844 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					78C694CB25DEEC31008B8844 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 78C694BD25DEEC31008B8844 /* Build configuration list for PBXProject "HuaweiSiteObjc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78C694B925DEEC31008B8844;
+			productRefGroup = 78C694C425DEEC31008B8844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78C694C225DEEC31008B8844 /* HuaweiSiteObjc */,
+				78C694CB25DEEC31008B8844 /* HuaweiSiteObjcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C694C125DEEC31008B8844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C694CA25DEEC31008B8844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C694BF25DEEC31008B8844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C6955125DEEC4A008B8844 /* Period.m in Sources */,
+				78C6956F25DEEC4A008B8844 /* GeocodeRequest.m in Sources */,
+				78C6954225DEEC4A008B8844 /* TimezoneRequest.m in Sources */,
+				78C6955625DEEC4A008B8844 /* DetailSearchRequest.m in Sources */,
+				78C6956825DEEC4A008B8844 /* Coordinate.m in Sources */,
+				78C6957325DEEC4A008B8844 /* SiteClient.m in Sources */,
+				78C6957525DEEC4A008B8844 /* ApiContext.m in Sources */,
+				78C6956425DEEC4A008B8844 /* Site.m in Sources */,
+				78C6953D25DEEC4A008B8844 /* CoordinateBounds.m in Sources */,
+				78C6955A25DEEC4A008B8844 /* NearbySearchRequest.m in Sources */,
+				78C6954125DEEC4A008B8844 /* TimezoneResponse.m in Sources */,
+				78C6953C25DEEC4A008B8844 /* TextSearchResponse.m in Sources */,
+				78C6955F25DEEC4A008B8844 /* TimeOfWeek.m in Sources */,
+				78C6954625DEEC4A008B8844 /* ReverseGeocodeResponse.m in Sources */,
+				78C6954825DEEC4A008B8844 /* QueryAutocompleteResponse.m in Sources */,
+				78C6956525DEEC4A008B8844 /* AddressDetail.m in Sources */,
+				78C6953B25DEEC4A008B8844 /* TextSearchRequest.m in Sources */,
+				78C6954725DEEC4A008B8844 /* QueryAutocompleteRequest.m in Sources */,
+				78C6954325DEEC4A008B8844 /* ReverseGeocodeRequest.m in Sources */,
+				78C6957025DEEC4A008B8844 /* GeocodeResponse.m in Sources */,
+				78C6956125DEEC4A008B8844 /* Word.m in Sources */,
+				78C6955E25DEEC4A008B8844 /* Poi.m in Sources */,
+				78C6955025DEEC4A008B8844 /* HwLocationType.m in Sources */,
+				78C6956B25DEEC4A008B8844 /* BaseResponse.m in Sources */,
+				78C6954C25DEEC4A008B8844 /* QuerySuggestionResponse.m in Sources */,
+				78C6953825DEEC4A008B8844 /* OpeningHours.m in Sources */,
+				78C6955C25DEEC4A008B8844 /* LocationType.m in Sources */,
+				78C6955525DEEC4A008B8844 /* DetailSearchResponse.m in Sources */,
+				78C6955925DEEC4A008B8844 /* NearbySearchResponse.m in Sources */,
+				78C6956A25DEEC4A008B8844 /* ChildrenNode.m in Sources */,
+				78C6956D25DEEC4A008B8844 /* AutoCompletePrediction.m in Sources */,
+				78C6954B25DEEC4A008B8844 /* QuerySuggestionRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C694C825DEEC31008B8844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C6957D25DEEC80008B8844 /* ApiContextTests.m in Sources */,
+				78C6957E25DEEC80008B8844 /* ClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78C694CF25DEEC31008B8844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C694C225DEEC31008B8844 /* HuaweiSiteObjc */;
+			targetProxy = 78C694CE25DEEC31008B8844 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78C694D525DEEC31008B8844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78C694D625DEEC31008B8844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78C694D825DEEC31008B8844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UDDG65G7C9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HuaweiSiteObjc/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.HuaweiSiteObjc;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C694D925DEEC31008B8844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UDDG65G7C9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HuaweiSiteObjc/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.HuaweiSiteObjc;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78C694DB25DEEC31008B8844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDDG65G7C9;
+				INFOPLIST_FILE = HuaweiSiteObjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.HuaweiSiteObjcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C694DC25DEEC31008B8844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDDG65G7C9;
+				INFOPLIST_FILE = HuaweiSiteObjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.HuaweiSiteObjcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78C694BD25DEEC31008B8844 /* Build configuration list for PBXProject "HuaweiSiteObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C694D525DEEC31008B8844 /* Debug */,
+				78C694D625DEEC31008B8844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C694D725DEEC31008B8844 /* Build configuration list for PBXNativeTarget "HuaweiSiteObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C694D825DEEC31008B8844 /* Debug */,
+				78C694D925DEEC31008B8844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C694DA25DEEC31008B8844 /* Build configuration list for PBXNativeTarget "HuaweiSiteObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C694DB25DEEC31008B8844 /* Debug */,
+				78C694DC25DEEC31008B8844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78C694BA25DEEC31008B8844 /* Project object */;
+}

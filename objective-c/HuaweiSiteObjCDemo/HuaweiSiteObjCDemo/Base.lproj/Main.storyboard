@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YbX-SM-Qm6">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="O2d-5H-xSO">
+            <objects>
+                <viewController id="YbX-SM-Qm6" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3U3-ZE-fhJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="Z9l-0h-BtC">
+                                <rect key="frame" x="20" y="221" width="374" height="464"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hw3-Po-dpe">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
+                                        <state key="normal" title="Call TextSearch"/>
+                                        <connections>
+                                            <action selector="textSearchAction:" destination="YbX-SM-Qm6" eventType="touchUpInside" id="7bb-DV-pCG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TgI-u0-wVv">
+                                        <rect key="frame" x="0.0" y="62" width="374" height="30"/>
+                                        <state key="normal" title="Call NearbySearch"/>
+                                        <connections>
+                                            <action selector="nearbySearchAction:" destination="YbX-SM-Qm6" eventType="touchUpInside" id="peO-Mv-IJ7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8U-L3-gUO">
+                                        <rect key="frame" x="0.0" y="124" width="374" height="30"/>
+                                        <state key="normal" title="Call DetailSearch"/>
+                                        <connections>
+                                            <action selector="detailSearchAction:" destination="YbX-SM-Qm6" eventType="touchUpInside" id="okC-mM-XQU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LN-ZZ-S37">
+                                        <rect key="frame" x="0.0" y="186" width="374" height="30"/>
+                                        <state key="normal" title="Call QuerySuggestion"/>
+                                        <connections>
+                                            <action selector="querySuggestionAction:" destination="YbX-SM-Qm6" eventType="touchUpInside" id="Oab-1c-xMd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJj-le-H2o">
+                                        <rect key="frame" x="0.0" y="248" width="374" height="30"/>
+                                        <state key="normal" title="Call QueryAutocomplete"/>
+                                        <connections>
+                                            <action selector="queryAutocompleteAction:" destination="YbX-SM-Qm6" eventType="touchUpInside" id="pjg-PR-LbV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdP-yI-VKC">
+                                        <rect key="frame" x="0.0" y="310" width="374" height="30"/>
+                                        <state key="normal" title="Call Geocode"/>
+                                        <connections>
+                                            <action selector="geocodeAction:" destination="YbX-SM-Qm6" eventType="touchUpInside" id="08O-de-oOs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OrD-AI-Wng">
+                                        <rect key="frame" x="0.0" y="372" width="374" height="30"/>
+                                        <state key="normal" title="Call ReverseGeocode"/>
+                                        <connections>
+                                            <action selector="reverseGeocodeAction:" destination="YbX-SM-Qm6" eventType="touchUpInside" id="SIs-8U-2Vr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNy-Je-4d1">
+                                        <rect key="frame" x="0.0" y="434" width="374" height="30"/>
+                                        <state key="normal" title="Call Timezone"/>
+                                        <connections>
+                                            <action selector="timezoneAction:" destination="YbX-SM-Qm6" eventType="touchUpInside" id="8sp-ik-xWy"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TGj-sB-XDe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TGj-sB-XDe" firstAttribute="trailing" secondItem="Z9l-0h-BtC" secondAttribute="trailing" constant="20" id="K9U-xJ-79I"/>
+                            <constraint firstItem="Z9l-0h-BtC" firstAttribute="centerX" secondItem="TGj-sB-XDe" secondAttribute="centerX" id="W2Z-mR-W0T"/>
+                            <constraint firstItem="Z9l-0h-BtC" firstAttribute="centerY" secondItem="TGj-sB-XDe" secondAttribute="centerY" id="j63-q4-ief"/>
+                            <constraint firstItem="Z9l-0h-BtC" firstAttribute="leading" secondItem="TGj-sB-XDe" secondAttribute="leading" constant="20" id="jgU-kg-kCt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xxr-bM-S1s" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="94"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

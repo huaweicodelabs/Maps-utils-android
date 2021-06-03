@@ -1,0 +1,8 @@
+node_modules/
+lib/
+.cache
+.rpt2_cache
+build/
+coverage/
+.vscode
+yarn-error.log

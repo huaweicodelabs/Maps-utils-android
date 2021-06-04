@@ -1,4 +1,4 @@
-# ObjC Client for HuaweiSite Services
+# ObjC Client for Huawei Site Services
 
 ## Introduction
 

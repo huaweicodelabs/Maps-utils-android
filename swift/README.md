@@ -1,4 +1,4 @@
-# Swift Client for HuaweiSite Services
+# Swift Client for Huawei Site Services
 
 ## Introduction
 

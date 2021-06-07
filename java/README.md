@@ -2,7 +2,7 @@
 
 ![Apache-2.0](https://img.shields.io/badge/license-Apache-blue)
 
-English | [中文](https://github.com/huaweicodelabs/Maps-utils-android/blob/master/README_ZH.md)
+English | [中文](https://github.com/huaweicodelabs/Maps-utils-android/blob/master/java/README_ZH.md)
 
 ## Contents
 

@@ -18,19 +18,19 @@
 map_services_java是位置服务以Client Library形式为第三方开发者提供的一套接口，可用于开发位置搜索、地理编码、获取时区相关的服务。
 位置服务Java Client库支持以下接口功能：
 
-- [关键字搜索](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References-V5/webapi-keyword-search-0000001050161916-V5)
-- [周边搜索](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References-V5/webapi-nearby-search-0000001050163873-V5)
-- [地点详情](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References-V5/webapi-detail-search-0000001050161918-V5)
-- [地点搜索建议](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References-V5/webapi-query-suggestion-0000001050161966-V5)
-- [自动补全](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References-V5/autocomplete-0000001052250492-V5)
-- [正地理编码](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References-V5/webapi-forward-geo-0000001050163921-V5)
-- [逆地理编码](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References-V5/webapi-reverse-geo-0000001050161968-V5)
-- [获取时区](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References-V5/webapi-time-zone-0000001050161920-V5)
+- [关键字搜索](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References/webapi-keyword-search-0000001050161916)
+- [周边搜索](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References/webapi-nearby-search-0000001050163873)
+- [地点详情](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References/webapi-detail-search-0000001050161918)
+- [地点搜索建议](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References/webapi-query-suggestion-0000001050161966)
+- [自动补全](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References/autocomplete-0000001052250492)
+- [正地理编码](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References/webapi-forward-geo-0000001050163921)
+- [逆地理编码](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References/webapi-reverse-geo-0000001050161968)
+- [获取时区](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References/webapi-time-zone-0000001050161920)
 
 ## 使用要求
 
 - JDK版本号1.8及以上。
-- 在AppGallery Connect上[获取API key](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/client-library-0000001104033088-V5#ZH-CN_TOPIC_0000001104033088__section527610250284)。
+- 在AppGallery Connect上[获取API key](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/client-library-0000001104033088#section527610250284)。
 
 
 ## 安装说明

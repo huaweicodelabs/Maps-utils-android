@@ -8,14 +8,14 @@ For details please refer to [Official Documentation](https://developer.huawei.co
 
 - ### Site API
 
-    - [Keyword Search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-keyword-search-0000001050161916-V5)
-    - [Nearby Search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-nearby-search-0000001050163873-V5)
-    - [Place Detail Search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-detail-search-0000001050161918-V5)
-    - [Geocoding](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-forward-geo-0000001050163921-V5)
-    - [Reverse Geocoding](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-reverse-geo-0000001050161968-V5)
-    - [Place Search Suggestion](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-query-suggestion-0000001050161966-V5)
-    - [Autocomplete](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/autocomplete-0000001052250492-V5)
-    - [Time Zone Search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/webapi-time-zone-0000001050161920-V5)
+    - [Keyword Search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/webapi-keyword-search-0000001050161916)
+    - [Nearby Search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/webapi-nearby-search-0000001050163873)
+    - [Place Detail Search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/webapi-detail-search-0000001050161918)
+    - [Geocoding](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/webapi-forward-geo-0000001050163921)
+    - [Reverse Geocoding](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/webapi-reverse-geo-0000001050161968)
+    - [Place Search Suggestion](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/webapi-query-suggestion-0000001050161966)
+    - [Autocomplete](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/autocomplete-0000001052250492)
+    - [Time Zone Search](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/webapi-time-zone-0000001050161920)
 
 ## Getting Started
 
